@@ -223,6 +223,6 @@ mod tests {
         filename.push("data.txt");
         let dataset = DataSet::load_dataset(filename);
         println!("{:?}", dataset.bruteforce_count_XMAS()); // should be 2434
-        println!("{:?}", dataset.bruteforce_count_cross_MAS());
+        println!("{:?}", dataset.bruteforce_count_cross_MAS()); // should be 1835
     }
 }
