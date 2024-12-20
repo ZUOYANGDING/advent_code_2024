@@ -114,7 +114,7 @@ mod tests {
         data_set.filter_correct_updates();
         data_set.cal_mid_sum_up(Type::Correct);
         data_set.cal_mid_sum_up(Type::Incorrect);
-        println!("{:?}", data_set.correct_mid_sum_up);
-        println!("{:?}", data_set.incorrect_mid_sum_up);
+        println!("{:?}", data_set.correct_mid_sum_up); //5509
+        println!("{:?}", data_set.incorrect_mid_sum_up); //4407
     }
 }
