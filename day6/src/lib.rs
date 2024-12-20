@@ -237,7 +237,7 @@ mod tests {
         filename.push("data.txt");
         let mut lab_map = LabMap::load_dataset(filename);
 
-        println!("{:?}", lab_map.count_unique_position());
-        println!("{:?}", lab_map.count_possilbe_to_make_loop());
+        println!("{:?}", lab_map.count_unique_position()); //5534
+        println!("{:?}", lab_map.count_possilbe_to_make_loop()); //2262
     }
 }
